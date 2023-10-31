@@ -11,7 +11,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(demoCode.factorial(2), 2)
         self.assertEqual(demoCode.factorial(5), 120)
         self.assertEqual(demoCode.factorial(6), 720)
-        
+
+
 
 if __name__ == '__main__':
     unittest.main()
